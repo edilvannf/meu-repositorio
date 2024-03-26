@@ -30,7 +30,7 @@ body {
     text-align: center;
     width: 100%;
     font-size: 32px;
-    animation: piscar 1s infinite alternate; 
+    animation: piscar 4s infinite alternate; 
 }
 
 .titulo-principal span {
@@ -38,7 +38,7 @@ body {
 }
 
 @keyframes piscar {
-    0% {
+    0%, 75% {
         opacity: 1;
     }
     100% {
