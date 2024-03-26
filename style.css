@@ -15,6 +15,13 @@ body {
     font-family: 'Chakra Petch', sans-serif;
   }
   */seletor
+
+  .cronometro {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 48px;
+    color: var(--roxo);
+    margin-top: 20px;
+}
  
   .conteudo-principal {
     display: flex;
@@ -108,9 +115,4 @@ body {
         border-radius: 0 40px 0 0;
     }
 
-    .cronometro {
-        font-family: 'Chakra Petch', sans-serif;
-        font-size: 48px;
-        color: var(--roxo);
-        margin-top: 20px;
-    }    
+  
