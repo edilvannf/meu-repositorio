@@ -30,20 +30,58 @@ body {
     text-align: center;
     width: 100%;
     font-size: 32px;
-    animation: piscar 4s infinite alternate; 
+    position: relative;
 }
 
 .titulo-principal span {
     color: var(--roxo);
+    position: relative;
+    display: inline-block;
+}
+
+@keyframes glitch {
+    0% { 
+        transform: translate(0);
+    }
+    20% {
+        transform: translate(-5px, 5px);
+    }
+    40% {
+        transform: translate(5px, -5px);
+    }
+    60% {
+        transform: translate(-5px, 5px);
+    }
+    80% {
+        transform: translate(5px, -5px);
+    }
+    100% {
+        transform: translate(0);
+    }
 }
 
 @keyframes piscar {
-    0%, 75% {
+    0%, 20%, 40%, 60%, 80% {
         opacity: 1;
     }
-    100% {
+    10%, 30%, 50%, 70%, 90% {
         opacity: 0;
     }
+}
+
+.titulo-principal span::before,
+.titulo-principal span::after {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    color: white;
+    animation: glitch 0.1s infinite alternate-reverse, piscar 0.6s infinite steps(1);
+}
+
+.titulo-principal span {
+    color: var(--roxo);
 }
 
 
