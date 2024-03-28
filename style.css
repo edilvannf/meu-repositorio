@@ -43,6 +43,10 @@ body {
     color: var(--roxo);
 }
 
+@font-face {
+    font-family: 'Minecraftia';
+    src: url('Minecraftia-Regular.ttf') format('truetype');
+}
 
 .botao {
     font-family: 'Minecraftia', sans-serif;
