@@ -41,6 +41,7 @@ body {
 
 .titulo-principal span {
     color: var(--roxo);
+    font-size: 'Minecraftia', sans-serif;
 }
 
 @font-face {
