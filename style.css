@@ -61,6 +61,7 @@ body {
 }
 .botoes {
     display: block;
+    font-family: "Minecraftia-Regular.ttf"; 
 }
 .botao:first-child {
     border-radius: 40px 40px 0 0;
