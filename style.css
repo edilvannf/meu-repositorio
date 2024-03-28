@@ -45,7 +45,7 @@ body {
 
 
 .botao {
-    font-family: "Crakra Petch", sans-serif;
+    font-family: "Minecraftia-Regular.ttf", sans-serif;
     background-color: var(--botao-inativo);
     color: var(--branco);
     display: flex;
