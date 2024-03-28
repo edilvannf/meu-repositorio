@@ -37,6 +37,9 @@ body {
     width: 100%;
     font-size: 32px;
     animation: balanco 5s ease-in-out infinite;
+    font-family: 'Minecraftia', sans-serif;
+
+
 }
 
 .titulo-principal span {
