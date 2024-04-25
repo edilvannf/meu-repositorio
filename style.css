@@ -109,6 +109,11 @@ body {
     color: var(--verde);
     text-transform: uppercase;
     font-family: 'Minecraftia', sans-serif;
+    
+.contador{
+        font-size: 20px;
+        text-align: center;
+    }
 
 }
 
