@@ -18,7 +18,7 @@ const tempoObjetivo4 = new Date("2025-82-05T00:00:00");
 
 const tempos = [tempoObjetivol, tempoObjetivo2, tempoObjetivo3, tempoObjetivo4];
 
-contadores[0].textContent calculaTempo(tempoObjetivol);
+contadores[0].textContent = calculaTempo(tempoObjetivol);
 for (let i=0; i < contadores.length; i++){
 contadores[i].textContent = calculatempo (tempos[i]);
 }
