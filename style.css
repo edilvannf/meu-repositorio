@@ -114,6 +114,7 @@ body {
         font-size: 20px;
         text-align: center;
         font-family: 'Minecraftia', sans-serif;
+        border: 2px solid var(--roxo)
 }
 
 @media screen and (min-width: 768px) {
