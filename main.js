@@ -17,7 +17,7 @@ const tempos = [
     new Date("2024-05-05T00:00:00"),
     new Date("2024-09-18T00:00:00"),
     new Date("2024-12-31T00:00:00"),
-    new Date("2024-11-30T00:00:00")
+    new Date("2025-11-30T00:00:00")
 ];
 
 function calculaTempo(tempoObjetivo) {
