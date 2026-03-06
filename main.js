@@ -14,9 +14,9 @@ for (let i = 0; i < botoes.length; i++) {
 
 const contadores = document.querySelectorAll(".contador");
 const tempos = [
-    new Date("2024-05-05T00:00:00"),
+    new Date("2026-05-05T00:00:00"),
     new Date("2024-09-18T00:00:00"),
-    new Date("2024-12-31T00:00:00"),
+    new Date("2028-12-31T00:00:00"),
     new Date("2027-12-12T00:00:00")
 ];
 
